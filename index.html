@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+    <div>
+      <form>
+        <label for="CustomerName">이름</label>
+        <input type="text" name="CustomerName" id="CustomerName"><br />
+        <label for="CustomerPassword">비밀번호</label>
+        <input type="password" name="CustomerPassword" id="CustomerPassword"><br />
+        <input type="radio" name="gender" value="MAN" id="MAN"><label for="MAN">남</label>
+        <input type="radio" name="gender" value="WOMAN" id="WOMAN"><label for="WOMAN">여</label><br />
+        <input type="radio" name="NATIONALITY" value="NATIVE" id="NATIVE"><label for="NATIVE">내국인</label>
+        <input type="radio" name="NATIONALITY" value="FOREIGNER" id="FOREIGNER"><label for="FOREIGNER">외국인</label><br />
+        <input type="checkbox" name="HOBBY" value="HIKING" id="HIKING"><label for="HIKING">등산</label>
+        <input type="checkbox" name="HOBBY" value="SWIMMING" id="SWIMMING"><label for="SWIMMING">수영</label>
+        <input type="checkbox" name="HOBBY" value="EXORCISE" id="EXORCISE"><label for="EXORCISE">운동</label><br />
+        <label for="trip">여행지</label>
+        <select name="trip" id="trip">
+          <option value="">-- 선택 --</option>
+          <option value="seoul">서울</option>
+          <option value="deagu">대구</option>
+          <option value="busan">부산</option>
+          <option value="jeju">제주</option>
+        </select>
+        <br />
+        <label for="myInfo">자기소개</label>
+        <textarea name="myInfo" id="myInfo"></textarea><br />
+        <button type="submit">확인</button>
+      </form>
+    </div>
+</body>
+</html>
